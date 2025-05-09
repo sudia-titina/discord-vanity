@@ -10,8 +10,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url('https://t3.ftcdn.net/jpg/07/15/50/20/360_F_715502099_3vj5xqsIWymypAVJMETUSSTOpFCYCd5W.jpg') no-repeat center center;
-        background-size: cover;
+        background: linear-gradient(135deg, #7289da, #99aab5); /* Discord-themed gradient */
         font-family: Arial, sans-serif;
         color: #fff;
         text-align: center;
@@ -21,6 +20,7 @@
         background: rgba(0, 0, 0, 0.7);
         padding: 20px;
         border-radius: 10px;
+        max-width: 400px;
       }
       h1 {
         font-size: 24px;
@@ -28,11 +28,20 @@
       }
       p {
         font-size: 16px;
+        margin-bottom: 20px;
+      }
+      img.chibi {
+        width: 150px; /* Adjust size as needed */
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       }
     </style>
   </head>
   <body>
     <div class="container">
+      <img src="https://t3.ftcdn.net/jpg/07/15/50/20/360_F_715502099_3vj5xqsIWymypAVJMETUSSTOpFCYCd5W.jpg" alt="Chibi Character" class="chibi">
       <h1>Redirecting to Discord...</h1>
       <p>Join our awesome community in just a moment!</p>
     </div>
